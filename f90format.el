@@ -72,7 +72,6 @@
 	"Command used for reformatting.
 This command should receive SQL input via STDIN and output the
 reformatted SQL to STDOUT, returning an appropriate exit code."
-	:options '("fprettify")
 	:type 'string)
 
 (defcustom f90format-args '()
